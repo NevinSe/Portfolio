@@ -1,0 +1,228 @@
+body{
+	background-image: url(http://vignette3.wikia.nocookie.net/starcitizen/images/0/01/JStanton-Arccorp.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.intro-text{
+	font-style: italic;
+	font-size: 30px;
+	letter-spacing: 5px;
+	color: blue;
+}
+.arial-normal-text{
+	font-size: 15px;
+	font-family: Arial;
+}
+.arial-header-blue-underline-bold-text{
+	font-size: 50px;
+	font-style: bold;
+	text-decoration: underline;
+	color: blue;
+	letter-spacing: 10px;
+	font-family: Arial;
+}
+.arial-normal-underline-text{
+	font-size: 15px;
+	font-family: Arial;
+	text-decoration: underline;
+}
+.arial-normal-red-text{
+	font-size: 15px;
+	font-family: Arial;
+	color: red;
+}
+.arial-normal-red-bold-text{
+	font-size: 15px;
+	font-family: Arial;
+	font-style: bold;
+	color: red;
+}
+.arial-normal-red-italic-text{
+	font-size: 15px;
+	font-family: Arial;
+	font-style: italic;
+	color: red;
+}
+.arial-normal-red-underline-text{
+	font-size: 15px;
+	font-family: Arial;
+	text-decoration: underline;
+	color: red;
+}
+.times-normal-text{
+	font-size: 15px;
+	font-family: Times;
+	font-style: normal;
+}
+.timesnewroman-red-text{
+	font-size: 15px;
+	font-family: Times;
+	color: red;
+}
+.timesnewroman-red-italic-text{
+	font-size: 20px;
+	font-family: Arial;
+	color: white;
+	font-style: normal;
+	text-shadow:
+    0 0 3px #FF0000;
+}
+.times-large-red-text{
+	font-size: 30px;
+	font-family: Times;
+	color: red;
+}
+.times-large-red-bold-text{
+	font-size: 30px;
+	font-family: Times;
+	color: red;
+	font-style: bold;
+}
+.times-large-red-italic-text{
+	font-size: 30px;
+	font-family: Times;
+	color: red;
+	font-style: italic;
+}
+.times-normal-blue-text{
+	font-size: 15px;
+	font-family: Times;
+	font-style: normal;
+	color: blue;
+}
+.times-normal-blue-bold-text{
+	font-size: 15px;
+	font-family: Times;
+	font-style: bold;
+	color: blue;
+}
+.times-normal-blue-italic-text{
+	font-size: 15px;
+	font-family: Times;
+	font-style: italic;
+	color: blue;
+}
+.times-large-blue-text{
+	font-size: 30px;
+	font-family: Times;
+	color: blue;
+}
+.times-large-blue-bold-text{
+	font-size: 30px;
+	font-family: Times;
+	font-style: bold;
+	color: blue;
+}
+.times-large-blue-italic-text{
+	font-size: 30px;
+	font-family: Times;
+	font-style: italic;
+	color: blue;
+}
+.times-large-blue--italic-underline-text{
+	font-size: 30px;
+	font-family: Times;
+	font-style: italic;
+	text-decoration: underline;
+	color: blue;
+}
+.arial-massive-text{
+	font-size: 100px;
+	font-family: Arial;
+}
+.arial-massive-red-text{
+	font-size: 100px;
+	font-family: Arial;
+	color: red;
+}
+.arial-massive-red-bold-text{
+	font-size: 100px;
+	font-family: Arial;
+	color: red;
+	font-style: bold;
+}
+.arial-massive-red-bold-underline-text{
+	font-size: 100px;
+	font-family: Arial;
+	color: red;
+	font-style: bold;
+	text-decoration: underline
+}
+.arial-normal-red-underline-text{
+	font-size: 20px;
+	font-family: Arial;
+	color: white;
+	text-decoration: underline;
+	font-style: normal;
+	text-shadow:
+    0 0 3px #FF0000;
+}
+.button-size{
+	background-color: black;
+	border: 1px solid white;
+	color:red;
+	cursor: pointer;
+	font-size: 20px;
+    height:50px;
+    width:100%;
+}
+.button-size:hover{
+	 background-color: white;
+
+}
+.button-size:active{
+	background-color: yellow;
+}
+.fancy-text-heading{
+	font-size: 50px;
+	font-family: Aclonica, cursive;
+	color: black;
+	
+	text-shadow:
+    0 0 3px #FF0000;
+}
+.fancy-text-body{
+	font-size: 30px;
+	font-family: Aclonica, cursive;
+	color: white;
+	
+	text-shadow:
+    3px 3px black;
+}
+.fancy-text-black-large-body{
+	font-size: 30px;
+	font-family: Aclonica, cursive;
+	color: black;
+	
+	text-shadow:
+    1px 1px red;
+}
+.fancy-text-black-small-body{
+	font-size: 18px;
+	font-family: Aclonica, cursive;
+	color: black;
+	
+	text-shadow:
+    1px 1px red;
+}
+.box-soild{
+	border: 5px red;
+	border-radius: 5px;
+	margin: 10px;
+	background: linear-gradient(to bottom right, rgba(255,255,255,.7) ,rgba(255,255,102,.9));
+}
+.box-solid-topright{
+	border: 5px red;
+	border-radius: 5px;
+	margin: 10px;
+	background: linear-gradient(to top right, rgba(255,255,255,.7) ,blue);
+
+
+}
+.box-solid-bottop-black{
+	border: 5px red;
+	border-radius: 5px;
+	background: linear-gradient(to top right, rgba(255, 153, 51.5) ,rgba(0,0,0,.5));
+
+}
